@@ -39,6 +39,8 @@ jobs:
           - magento-zend-exception
           - magento-zend-log
           - magento-zend-memory
+          - magento-zf-captcha
+          - magento-zf-soap
           - PHPCompatibilityFork
     steps:
       - name: Install SSH Key
